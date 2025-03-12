@@ -1,4 +1,5 @@
-int = 0
-print(int)
-int = 10 + 10
-print(int - 12)
+counter = 0
+userInput = int(input("Enter loop amount: "))
+for i in range(userInput):
+    counter += 1
+    print(counter)
